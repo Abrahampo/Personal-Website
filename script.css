@@ -1,3 +1,5 @@
+
+
 nav{
 font-size: 1.1rem;
 color: black;
@@ -26,17 +28,17 @@ nav .navigation{
     display: flex;
 }
 
-/* #m-btn{
+ #m-btn{
 width: 20px;
 height: 20px;
-display: initial;
+display: flex;
 
 }
 
 #close{
     display: flex;
 }
-*/
+
 nav .navigation ul{
 display: flex;
 justify-content: flex-end;
@@ -520,24 +522,88 @@ margin-top: 20px;
                         
                       }
 
+
                       @media(max-width: 429) {
 
                         nav {
                             padding: 15px 20px;
                         }
 
-                        #m-btn{
-                            
-                            display: initial;
+                       nav #m-btn{
+                        display: initial;
+
+                       }
                             
                             }
                             
                             #close{
-                                display: none;
+                                display: initial;
+                            }
+
+
+
+                            /*Course page for Css */
+
+                           .vb{
+
+                            color: red;    
+                             text-transform: uppercase;
+                             text-decoration: dotted;
+                             padding: 20px
+                             
+                            }
+
+
+                            #b{
+                                padding: 6vw 8vw 6vw 8vw;
+                                background-image: linear-gradient( rgba(99, 112, 168, 0.5), rgba(81, 91, 233, 0.5)), url("water.jpeg");
+                                width: 84%;
+                                height: 100%;
+                                background-position: center;
+                                background-size: cover;
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
                             }
                             
+                            
+
+                            #b .enroll h1{
+                                color: red;
+                                text-align: left;
+                            font-size: 29px;
+
+                            }
                         
-                      }
+
+                            #b .enroll p{
+                                text-transform: uppercase;
+                                color: burlywood;
+                                padding: 30px;
+                                
+                                }
+
+
+                                #cc{
+                                    color:khaki;
+                                    
+                                    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5 , 4, 46, 0.7)), url("bacg.jpg");
+                                    width: 100%;
+                                    
+                                    background-size: cover;
+                                    background-position: center;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    
+
+                                }
+                    
+                                
+                            
+                        
+                      
 
 
 
